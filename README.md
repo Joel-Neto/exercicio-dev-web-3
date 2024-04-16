@@ -26,21 +26,21 @@ node index.js
 
 **- GET**: Listar todos os alunos (RA, Nome, Turma).
 
-• URL: **http://localhost:3000/alunos**
-• Parâmetros: -
-• Body: -
+* URL: **http://localhost:3000/alunos**
+* Parâmetros: -
+* Body: -
 
 **- GET**: Listar um aluno através do RA informado (Nome, Turma, Cursos).
 
-• URL: Ex.: **http://localhost:3000/alunos/ra/?ra=12345**
-• Parâmetros: Ex.: **?ra=12345**
-• Body: -
+* URL: Ex.: **http://localhost:3000/alunos/ra/?ra=12345**
+* Parâmetros: Ex.: **?ra=12345**
+* Body: -
 
 **- POST**: Adicionar um aluno na lista.
 
-• URL: **http://localhost:3000/alunos**
-• Parâmetros: -
-• Body:
+* URL: **http://localhost:3000/alunos**
+* Parâmetros: -
+* Body:
 
 ```
   {
@@ -53,9 +53,9 @@ node index.js
 
 **- POST**: Adicionar um curso para o aluno.
 
-• URL: Ex.: **http://localhost:3000/alunos/habilidades/ra?ra=98765**
-• Parâmetros: Ex.: **?ra=98765**
-• Body:
+* URL: Ex.: **http://localhost:3000/alunos/habilidades/ra?ra=98765**
+* Parâmetros: Ex.: **?ra=98765**
+* Body:
 
 ```
   {
@@ -65,9 +65,9 @@ node index.js
 
 **- PUT**: Alterar os dados de um aluno através do RA.
 
-• URL: Ex.: **http://localhost:3000/alunos/ra?ra=12345**
-• Parâmetros: Ex.: **?ra=12345**
-• Body:
+* URL: Ex.: **http://localhost:3000/alunos/ra?ra=12345**
+* Parâmetros: Ex.: **?ra=12345**
+* Body:
 
 ```
   {
@@ -78,9 +78,9 @@ node index.js
 
 **- PUT**: Alterar o curso do aluno.
 
-• URL: Ex.: **http://localhost:3000/alunos/habilidades/ra?ra=12345**
-• Parâmetros: Ex.: **?ra=12345**
-• Body:
+* URL: Ex.: **http://localhost:3000/alunos/habilidades/ra?ra=12345**
+* Parâmetros: Ex.: **?ra=12345**
+* Body:
 
 ```
   {
@@ -91,15 +91,15 @@ node index.js
 
 **- DELETE**: Remover um aluno da lista.
 
-• URL: Ex.: **http://localhost:3000/alunos/ra?ra=12345**
-• Parâmetros: Ex.: **?ra=12345**
-• Body: -
+* URL: Ex.: **http://localhost:3000/alunos/ra?ra=12345**
+* Parâmetros: Ex.: **?ra=12345**
+* body: -
 
 **- DELETE**: Remover um aluno da lista.
 
-• URL: Ex.: **http://localhost:3000/alunos/habilidades/ra?ra=54321**
-• Parâmetros: Ex.: **?ra=54321**
-• Body:
+* URL: Ex.: **http://localhost:3000/alunos/habilidades/ra?ra=54321**
+* Parâmetros: Ex.: **?ra=54321**
+* Body:
 
 ```
   {
