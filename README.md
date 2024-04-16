@@ -2,14 +2,14 @@
 
 ### Métodos necessários:
 
-• GET – Listar todos os alunos (RA, Nome, Turma);
-• GET – Listar um aluno através do RA informado (Nome, Turma, Cursos);
-• POST – Adicionar um aluno na lista;
-• POST – Adicionar um curso para o aluno;
-• PUT – Alterar os dados de um aluno através do RA;
-• PUT – Alterar o curso do aluno;
-• DELETE – Remover um aluno da lista;
-• DELETE – Remover o curso do aluno;
+* GET – Listar todos os alunos (RA, Nome, Turma);
+* GET – Listar um aluno através do RA informado (Nome, Turma, Cursos);
+* POST – Adicionar um aluno na lista;
+* POST – Adicionar um curso para o aluno;
+* PUT – Alterar os dados de um aluno através do RA;
+* PUT – Alterar o curso do aluno;
+* DELETE – Remover um aluno da lista;
+* DELETE – Remover o curso do aluno;
 
 ### Instalação e uso:
 
